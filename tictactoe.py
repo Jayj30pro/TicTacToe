@@ -153,7 +153,7 @@ def checkBoard():
         print("\n\n\n")
         print("X is the winner!!!")
         return True
-    elif gameboard[0][1] == "O" and gameboard[1][1] == "O" and gameboard[2][2] == "O":
+    elif gameboard[0][0] == "O" and gameboard[1][1] == "O" and gameboard[2][2] == "O":
         clear_screen()
         print("\n\n\n")
         print("O is the winner!!!")
